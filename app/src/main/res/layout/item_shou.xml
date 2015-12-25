@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:background="#14aaaaaa"
+    android:paddingLeft="10dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@mipmap/defaultimage"
+        android:scaleType="fitXY"
+        android:id="@+id/iamge_item"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:id="@+id/text2_item"
+        android:layout_alignBottom="@+id/iamge_item"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num_item"
+        android:text="num"
+        android:textSize="13dp"
+        android:textColor="#aaa"
+        android:drawableLeft="@mipmap/yanjing"
+        android:layout_alignTop="@+id/iamge_item"
+        android:layout_alignRight="@+id/iamge_item"/>
+
+</RelativeLayout>
